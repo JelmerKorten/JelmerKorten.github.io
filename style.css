@@ -159,8 +159,8 @@ input[type=text], select, textarea {
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
-  
-  input[type=tel], select, textarea {
+
+input[type=tel], select, textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */  
     border: 1px solid #ccc; /* Gray border */
@@ -172,7 +172,7 @@ input[type=text], select, textarea {
   }
 
   /* Style the submit button with a specific background color etc */
-  input[type=submit] {
+input[type=submit] {
     background-color: #04AA6D;
     color: white;
     padding: 12px 20px;
@@ -182,7 +182,7 @@ input[type=text], select, textarea {
   }
   
   /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: #45a049;
   }
 
@@ -192,14 +192,14 @@ input[type=text], select, textarea {
   }
   
   /* Add a background color and some padding around the form */
-  .contactformcontainer {
+.contactformcontainer {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
   }
 
   /* quinoa cake hero image */
-  .quinoa-cake-image {
+.quinoa-cake-image {
     background-image: url("/src/images/Butterfly\ in\ dagga.jpg");
     background-color: #cccccc;
     width: 50%;
@@ -210,7 +210,7 @@ input[type=text], select, textarea {
     position: relative;
 }
 
-  .summer-pasta-salad-image {
+.summer-pasta-salad-image {
     background-image: url("/src/images/Butterfly\ in\ dagga.jpg");
     background-color: #cccccc;
     width: 50%;
@@ -221,136 +221,137 @@ input[type=text], select, textarea {
     position: relative;
     }
 
-    .quinoa-chocolate-bars-image {
-        background-image: url("/src/images/Butterfly\ in\ dagga.jpg");
-        background-color: #cccccc;
-        width: 50%;
-        height: 400px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        }
+.quinoa-chocolate-bars-image {
+    background-image: url("/src/images/Butterfly\ in\ dagga.jpg");
+    background-color: #cccccc;
+    width: 50%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    }
 
 
         
-        *:focus,
-        *:active {
-            outline: none !important;
-            -webkit-tap-highlight-color: transparent;
-        }
+*:focus,
+*:active {
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent;
+    }
         
-        html,
-        body {
-            background: linear-gradient(315deg, #ffffff, #d7e1ec)
-        }
+html,
+body {
+    background: linear-gradient(315deg, #ffffff, #d7e1ec)
+    }
         
-        .wrapperwrapper {
-            display: grid;
-            height: 100%;
-            width: 100%;
-            place-items: center;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+.wrapperwrapper {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
 
-        .wrapper {
-            display: inline-flex;
-            list-style: none;
-        }
+.wrapper {
+    display: inline-flex;
+    list-style: none;
+    }
         
-        .wrapper .icon {
-            position: relative;
-            background: #ffffff;
-            border-radius: 50%;
-            padding: 15px;
-            margin: 10px;
-            width: 50px;
-            height: 50px;
-            font-size: 21px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            box-shadow: 0 10px 10px rgba(0,0,0,0.1);
-            cursor: pointer;
-            transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        }
+.wrapper .icon {
+    position: relative;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
         
-        .wrapper .tooltip {
-            position: absolute;
-            top: 0;
-            font-size: 16px;
-            background: #ffffff;
-            color: #ffffff;
-            padding: 5px 8px;
-            border-radius: 5px;
-            box-shadow: 0 10px 10px rgba(0,0,0,0.1);
-            opacity: 0;
-            pointer-events: none;
-            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        }
+.wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    background: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
         
-        .wrapper .tooltip::before {
-            position: absolute;
-            content: "";
-            height: 8px;
-            width: 8px;
-            background: #ffffff;
-            bottom: -3px;
-            left: 50%;
-            transform: translate(-50%) rotate(45deg);
-            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        }
+.wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
         
-        .wrapper .icon:hover .tooltip {
-            top: -45px;
-            opacity: 1;
-            visibility: visible;
-            pointer-events: auto;
-        }
+.wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    }
         
-        .wrapper .icon:hover span,
-        .wrapper .icon:hover .tooltip {
-            text-shadow: 0px -1px 0px rgba(0,0,0,0.1);
-        }
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.1);
+    }
         
-        .wrapper .insta:hover,
-        .wrapper .insta:hover .tooltip,
-        .wrapper .insta:hover .tooltip::before {
-            background: #e53176;
-            color: #ffffff;
-        }
+.wrapper .insta:hover,
+.wrapper .insta:hover .tooltip,
+.wrapper .insta:hover .tooltip::before {
+    background: #e53176;
+    color: #ffffff;
+    }
         
-        .wrapper .email:hover,
-        .wrapper .email:hover .tooltip,
-        .wrapper .email:hover .tooltip::before {
-            background: #1DA1F2;
-            color: #ffffff;
-        }
+.wrapper .email:hover,
+.wrapper .email:hover .tooltip,
+.wrapper .email:hover .tooltip::before {
+    background: #1DA1F2;
+    color: #ffffff;
+    }
         
-        .wrapper .whatsapp:hover,
-        .wrapper .whatsapp:hover .tooltip,
-        .wrapper .whatsapp:hover .tooltip::before {
-            background: #6ce58a;
-            color: #ffffff;
-        }
+.wrapper .whatsapp:hover,
+.wrapper .whatsapp:hover .tooltip,
+.wrapper .whatsapp:hover .tooltip::before {
+    background: #6ce58a;
+    color: #ffffff;
+    }
         
-        .insta:hover,
-        .email:hover,
-        .whatsapp:hover,
-        .icon:hover a {
-            font-size: 150%;
-            color: #ffffff !important;
-        }
+.insta:hover,
+.email:hover,
+.whatsapp:hover,
+.icon:hover a {
+    font-size: 150%;
+    color: #ffffff !important;
+    }
 
-        .insta:link a {
-            color: #e53176;
-        }
+.insta:link a {
+    color: #e53176;
+    }
 
-        .email:link a {
-            color: #1DA1F2;
-            background-color: #1DA1F2;
-            background: #1DA1F2;
-        }
+.email:link a {
+    color: #1DA1F2;
+    background-color: #1DA1F2;
+    background: #1DA1F2;
+    }
+
