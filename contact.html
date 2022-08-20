@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Korty's Recipe Page</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Free Easy Recipes">
+        <meta name="keywords" content="Recipes, Recipe, Free, Cooking, Quick, Easy, Cook, Cookbook, Quick Recipe, Easy Recipe">
+        <meta name="author" content="Jelmer Korty Korten">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/style.css">
+        <link rel="stylesheet" href="/src/fa/css/all.css">
+    </head>
+    <body>
+        <div class="scrollmenu">
+            <a href="/index.html">Home</a>
+            <a href="#news">News</a>
+            <a href="/recipes.html">Recipes</a>
+            <a href="/contact.html">Contact</a>
+            <a href="/socials.html">Socials</a>
+            <a style="float:right" href="#about">About</a>
+        </div>
+        <div class="contact">
+            <h2 class="pageheader">Contact</h2>
+            <div class="hero-image">
+                <div class="hero-text">
+                    <a>Jelmer "Korty" Korten</a><br>
+                    <a>I hope you enjoy my recipe collection</a>
+                </div>
+            </div>
+            <div class="wrapperwrapper">
+                <ul class="wrapper">
+                <li class="icon email">
+                    <span class="tooltip">Email</span>
+                    <span><i class="far fa-envelope"></i></span>
+                </li>
+                <li class="icon whatsapp">
+                    <span class="tooltip">Whatsapp</span>
+                    <span><i class="fab fa-whatsapp"></i></span>
+                </li>
+                <li class="icon insta">
+                    <span class="tooltip">Instagram</span>
+                    <a href="https://www.instagram.com/jelmer.korten/" rel="noopener noreferrer" target="_blank"><span><i class="fab fa-instagram"></i></span></a>
+                </li>
+                </ul>
+                </div>
+        </div>
+        <div class="contactformcontainer">
+            <form action="contactformaction_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+              <label for="phone"> Phonenumber</label>
+              <input type="tel" id="phone" name="phone" placeholder="000-00-000">
+
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+        <a href="/index.html">Home page</a>
+    </body>
+</html>
