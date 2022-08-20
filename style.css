@@ -1,5 +1,5 @@
 body {
-    font-family: garamond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, serif;
 }
 
 div.scrollmenu {
@@ -337,21 +337,22 @@ body {
     color: #ffffff;
     }
         
-.insta:hover,
-.email:hover,
-.whatsapp:hover,
 .icon:hover a {
-    font-size: 150%;
+    font-size: 175%;
     color: #ffffff !important;
     }
 
-.insta:link a {
+.insta > span:nth-of-type(2) > a:visited,
+.insta > span:nth-of-type(2) > a:link {
     color: #e53176;
-    }
+}
 
-.email:link a {
+.email > span:nth-of-type(2) > a:visited,
+.email > span:nth-of-type(2) > a:link {
     color: #1DA1F2;
-    background-color: #1DA1F2;
-    background: #1DA1F2;
-    }
+}
 
+.whatsapp > span:nth-of-type(2) > a:visited,
+.whatsapp > span:nth-of-type(2) > a:link {
+    color: #6ce58a;
+}
