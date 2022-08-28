@@ -1,33 +1,27 @@
     <ul class="navlist">
         <li>
-        <span class="nav-tooltip">Home</span>
         <a href="/index.html">Home</a>
         </li>
 
         <li>
-        <span class="nav-tooltip">News</span>
         <a href="#news">News</a>
         </li>
 
         <li>
-        <span class="nav-tooltip">Recipes</span>
         <a href="/recipes.html">Recipes</a>
         </li>
 
         <li>
-        <span class="nav-tooltip">Contact</span>
         <a href="/contact.html">Contact</a>
         </li>
 
         <li>
-        <span class="nav-tooltip">Socials</span>
         <a href="/socials.html">Socials</a>
         </li>
     </ul>
 
     <ul class="navlist-about">
         <li>
-        <span class="nav-tooltip">About</span>
         <a href="/about.html">About</a>
         </li>
     </ul>
@@ -40,19 +34,16 @@
 
 /* Styles the main things of the navbar */
 .navbar {
-    background-color: #cccccc;
+    background-image: linear-gradient(to left, rgb(179, 176, 176), rgb(105, 104, 104));
+    background-attachment: fixed;
     justify-content: space-between;
     min-height: 2vh;
-    margin: 0% top, 10% left;
     overflow: auto;
-    padding: 8px 50px;
     display: flex;
-    white-space: nowrap;
     position: -webkit-sticky; /* For Safari */
     position: sticky;
     transition: top 1s;
     top: 0;
-
 }
 
 /* displays list of the navbar next to each other */
@@ -65,7 +56,7 @@
 }
 
 .navlist li {
-    margin-right: 38px;
+    margin-right: 28px;
 }
 
 /* styles the links inside the navbar elements */
@@ -82,12 +73,12 @@
     border-right: none;
 }
 
-/* on hover of the links do this:  */
-.navbar a:hover {
-    background-color: #111;
-    text-decoration: none;
+
+.nav-tooltip {
+    opacity: 0;
 }
 
+/* 
 .nav-tooltip {
     position: absolute;
     top: 0;
@@ -100,6 +91,30 @@
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+} */
+
+/* .nav-tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+} */
+
+/* 
+.nav-tooltip:hover {
+    top: +45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+} */
+        
+.nav-tooltip {
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.1);
 }
 
 </style>
