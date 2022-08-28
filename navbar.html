@@ -1,0 +1,105 @@
+    <ul class="navlist">
+        <li>
+        <span class="nav-tooltip">Home</span>
+        <a href="/index.html">Home</a>
+        </li>
+
+        <li>
+        <span class="nav-tooltip">News</span>
+        <a href="#news">News</a>
+        </li>
+
+        <li>
+        <span class="nav-tooltip">Recipes</span>
+        <a href="/recipes.html">Recipes</a>
+        </li>
+
+        <li>
+        <span class="nav-tooltip">Contact</span>
+        <a href="/contact.html">Contact</a>
+        </li>
+
+        <li>
+        <span class="nav-tooltip">Socials</span>
+        <a href="/socials.html">Socials</a>
+        </li>
+    </ul>
+
+    <ul class="navlist-about">
+        <li>
+        <span class="nav-tooltip">About</span>
+        <a href="/about.html">About</a>
+        </li>
+    </ul>
+
+
+
+
+<!--  Styling Starts Here  -->
+<style>
+
+/* Styles the main things of the navbar */
+.navbar {
+    background-color: #cccccc;
+    justify-content: space-between;
+    min-height: 2vh;
+    margin: 0% top, 10% left;
+    overflow: auto;
+    padding: 8px 50px;
+    display: flex;
+    white-space: nowrap;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    transition: top 1s;
+    top: 0;
+
+}
+
+/* displays list of the navbar next to each other */
+.navbar .navlist,
+.navbar .navlist-about {
+    display: flex;
+    margin: 0% top 5% left;
+    padding-right: 30px;
+    list-style: none;
+}
+
+.navlist li {
+    margin-right: 38px;
+}
+
+/* styles the links inside the navbar elements */
+.navbar a {
+    color: whitesmoke;
+    text-align: center;
+    padding: 1.0333333%;
+    text-decoration: none;
+    border-right: 1px solid whitesmoke;
+}
+
+/* deletes the border on the right element */
+.navbar a:last-child {
+    border-right: none;
+}
+
+/* on hover of the links do this:  */
+.navbar a:hover {
+    background-color: #111;
+    text-decoration: none;
+}
+
+.nav-tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    background: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+</style>

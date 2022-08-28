@@ -1,39 +1,8 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif, serif;
+    background-image: linear-gradient(bottom, #aeb6bf, #eee8d0);
+    background-attachment: fixed;
 }
-
-div.scrollmenu {
-    background-color: #cccccc;
-    overflow: auto;
-    white-space: nowrap;
-    position: -webkit-sticky; /* For Safari */
-    position: sticky;
-    transition: top 1s;
-    top: 0;
-}
-
-div.scrollmenu a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 1.0333333%;
-    text-decoration: none;
-    border-right: 1px solid whitesmoke;
-}
-
-div.scrollmenu a:last-child {
-    border-right: none;
-}
-
-div.scrollmenu a:active {
-background-color: #04AA6D;
-}
-
-div.scrollmenu a:hover {
-    background-color: #111;
-    text-decoration: underline;
-}
-
 
 .big-container {
     display: flex;
@@ -121,19 +90,6 @@ div.scrollmenu a:hover {
     transform: translate(-50%, -50%);
     color: white;
   }
-
-.socials {
-    font-size: 300%;
-}
-
-.socials:hover {
-    font-size: 400%;
-}
-
-.socials:visited {
-    color: rgb(161, 161, 161);
-}
-
 
 footer {
     background-color: #cccccc;
@@ -233,16 +189,10 @@ input[type=submit]:hover {
     }
 
 
-        
 *:focus,
 *:active {
     outline: none !important;
     -webkit-tap-highlight-color: transparent;
-    }
-        
-html,
-body {
-    background: linear-gradient(315deg, #ffffff, #d7e1ec)
     }
         
 .wrapperwrapper {
