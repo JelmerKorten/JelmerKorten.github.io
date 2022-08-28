@@ -25,7 +25,8 @@ body {
     scroll-padding-left: 5em;
 }
 
-.scrollbox1 {
+.scrollbox1,
+.scrollbox3 {
     background-image: url("/src/images/Food.jpg");
     background-color: #cccccc;
     font-size: 200%;
@@ -36,27 +37,7 @@ body {
     width: 100%;
 }
 
-.scrollbox3 {
-    background-color: lightskyblue;
-    font-size: 200%;
-    scroll-snap-align: center;
-    flex: none;
-    text-align: center;
-    width: 100%;
-    background-image: url("/src/images/Food.jpg");
-    background-size: cover;
-}
-
-.scrollbox2 {
-    background-color: lightblue;
-    font-size: 200%;
-    scroll-snap-align: center;
-    flex: none;
-    text-align: center;
-    background-size: cover;
-    width: 100%;
-}
-
+.scrollbox2,
 .scrollbox4 {
     background-color: lightblue;
     font-size: 200%;
